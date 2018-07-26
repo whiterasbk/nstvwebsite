@@ -153,11 +153,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\webstorm\webnstv" />
-      <recent name="E:\webstorm\webnstv\js" />
+      <recent name="E:\webstorm\so web" />
+      <recent name="E:\webstorm\so web\js" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\webstorm\webnstv" />
+      <recent name="E:\webstorm\so web" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -173,7 +173,7 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/webnstv/index.html" />
+    <configuration name="index.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/so web/index.html" />
     <recent_temporary>
       <list size="1">
         <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.html" />

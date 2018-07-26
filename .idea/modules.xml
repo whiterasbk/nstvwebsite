@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../nstv/.idea/nstv.iml" filepath="$PROJECT_DIR$/../nstv/.idea/nstv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/webnstv.iml" filepath="$PROJECT_DIR$/.idea/webnstv.iml" />
     </modules>
   </component>
 </project>
