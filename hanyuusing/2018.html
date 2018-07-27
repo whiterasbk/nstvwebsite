@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="shortcut icon" href="../img/th.ico" />
+    <script src="../js/jquery.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="../js/script.js"></script>
+    <title>2018汉语应用大赛</title>
+
+</head>
+<body>
+
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img alt="Brand" class="navbar-icon" id="nnzsimg" src="../img/th.png">南宁三中校园电视台</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="../live.html">直播</a></li>
+                <li><a href="../index.html">主站公告</a></li>
+                <li><a href="../join.html">持续招新</a></li>
+                <li><a href="../news.html">校园新闻</a></li>
+                <li ><a href="../yingtong.html">映瞳微电影</a></li>
+                <li class="active"><a href="../hanyuusing.html">2018汉语应用大赛</a></li>
+                <li><a href="../about.html">关于电视台</a></li>
+            </ul>
+        </div><!--/.nav-collapse -->
+    </div>
+</div>
+
+<div class="container"  style="font-family: 'Microsoft YaHei UI Light';">
+    <div class="row">
+        <!-- 用于包揽全局 -->
+        <div class="col-md-2">
+            <!-- 左侧栏 -->
+            <div class="list-group">
+                <a href="#" id="left-join-in-title" class="list-group-item active">官方媒体</a>
+                <a href="#" id="left-join-in-qqgroup" class="list-group-item">2018电视台总群</a>
+                <a href="#" id="left-join-in-sina" class="list-group-item">电视台新浪微博</a>
+                <a href="#" id="left-join-in-qqzone" class="list-group-item">电视台qq空间</a>
+                <a href="#" id="left-join-in-youku" class="list-group-item">电视台优酷空间</a>
+                <a href="#" id="left-join-in-bilibili" class="list-group-item">电视台b站空间</a>
+            </div>
+        </div>
+        <div class="col-md-10">
+            <div style="display: none;" id="nstv-qqgroup" class="well hiding-page">
+                <!--2018电视台总群隐藏面板-->
+                2018电视台总群隐藏面板
+            </div>
+            <div style="display: none;" id="nstv-sina" class="well hiding-page">
+                <!--电视台新浪微博隐藏面板-->
+                <a href="https://weibo.com/u/2121482411?is_all=1">sian</a>
+                电视台新浪微博隐藏面板
+            </div>
+            <div style="display: none;" id="nstv-qqzone" class="well hiding-page">
+                <!--电视台qq空间隐藏面板-->
+                <a href="https://user.qzone.qq.com/2169296221">qqzone</a>
+                电视台qq空间隐藏面板
+            </div>
+            <div style="display: none;" id="nstv-youku" class="well hiding-page">
+                <!--电视台优酷空间隐藏面板-->
+                <a href="http://i.youku.com/i/UMTI5MDUyNDU0MA">youku</a>
+                电视台优酷空间隐藏面板
+            </div>
+            <div style="display: none;" id="nstv-bilibili" class="well hiding-page">
+                <!--电视台b站空间隐藏面板-->
+                <a href="https://space.bilibili.com/38967732">bilibili</a>
+                电视台b站空间隐藏面板
+            </div>
+
+            <div class="jumbotron">
+                <h1>2018汉语应用大赛</h1><br>
+                <img src="../img/hanyuusing2018primary.jpg" style="max-width: 100%; max-height: 60%;" alt="yingtong2018poster"><br><br>
+
+                <h4>2018汉语应用大赛宣传片:</h4>
+                <video width="100%" height="500px" controls>
+                    <source src="../video/2018hanyuusing-primary-xuanchuan.mp4" type="video/mp4">
+                    你就用这个浏览器有出息吗？
+                </video>
+
+                <h3 align="center">
+                    【汉语应用大赛】<br>
+                    上古结绳记事，后世撇捺以书锲。 <br>
+                    轻捧竹简甲骨，捍卫文明的足迹，<br>
+                    用抽象的笔画，刻写汉字的火种。<br>
+                    中文信息研究会秘书长萧启宏说过:<br>
+                    “汉字是中国文化之根；汉字是国家统一之本；汉字是国人立命之神。”<br>
+                    汉字是我们民族才智的集中表现。<br>
+                    因为汉字，我们祖先的智慧得以传承，我们久远的历史才得以不断。<br>
+                    4月16日，在阶梯教室三，首届汉语应用大赛初赛如约而至，<br>
+                    更多好玩的汉语游戏在这等着你，让我们一起书写汉字，<br>
+                    把汉字文化发扬光大。追根溯源，体验中国文化魅力。<br>
+                </h3>
+                <br>
+                <h3>详细报道</h3>
+                <h4>
+                    2018年4月16日，第五届汉语应用大赛正式开始，参赛的是高一年级各班，
+                    细看每一位选手，恍惚间有种利落的洒脱镌刻在字里行间,一钩一划,
+                    清隽有力.张扬跋扈,丝毫不受束缚,甚至整行一笔而下,有如神仙般的纵逸,
+                    来去无踪。比赛终究会有个结果，无论好坏，都值得我们为自己鼓掌。
+                    下面是各班的平均分,让我们一起期待各位同学在比赛中的精彩表现！
+                </h4>
+
+                <!--硬汉初赛成绩-->
+                <table class="table table-bordered">
+                   <tr>
+                       <td>序号</td>
+                       <td>1</td>
+                       <td>2</td>
+                       <td>3</td>
+                       <td>4</td>
+                       <td>5</td>
+                       <td>6</td>
+                       <td>7</td>
+                       <td>8</td>
+                       <td>9</td>
+                       <td>10</td>
+                   </tr>
+                    <tr>
+                        <td>班级</td>
+                        <td>1班</td>
+                        <td>2班</td>
+                        <td>3班</td>
+                        <td>4班</td>
+                        <td>5班</td>
+                        <td>6班</td>
+                        <td>7班</td>
+                        <td>8班</td>
+                        <td>9班</td>
+                        <td>10班</td>
+
+                    </tr>
+                    <tr>
+                        <td>得分</td>
+                        <td>44</td>
+                        <td>32</td>
+                        <td>34.8</td>
+                        <td>44.8</td>
+                        <td>51.8</td>
+                        <td>48</td>
+                        <td>53.6</td>
+                        <td>37.8</td>
+                        <td>57.2</td>
+                        <td>18.9</td>
+                    </tr>
+                </table>
+
+                <table class="table table-bordered">
+                    <tr>
+                        <td>序号</td>
+                        <td>11</td>
+                        <td>12</td>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                        <td>16</td>
+                        <td>17</td>
+                        <td>18</td>
+                        <td>19</td>
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>班级</td>
+                        <td>11班</td>
+                        <td>12班</td>
+                        <td>13班</td>
+                        <td>14班</td>
+                        <td>15班</td>
+                        <td>16班</td>
+                        <td>17班</td>
+                        <td>18班</td>
+                        <td>19班</td>
+                        <td>20班</td>
+                    </tr>
+                    <tr>
+                        <td>得分</td>
+                        <td>48.2</td>
+                        <td>33.4</td>
+                        <td>68.8</td>
+                        <td>67.2</td>
+                        <td>61.8</td>
+                        <td>59</td>
+                        <td>55.8</td>
+                        <td>45.8</td>
+                        <td>57.6</td>
+                        <td>55.8</td>
+                    </tr>
+                </table>
+
+                <h4>
+                    初赛答案:
+                </h4>
+                <div class="row">
+                    <div class="col-md-3"><a href="2018hanyuusing-primary-rurn-answer-1.jpg"><img style="max-height: 200px;" src="2018hanyuusing-primary-rurn-answer-1.jpg" alt=""></a></div>
+                    <div class="col-md-3"><a href="2018hanyuusing-primary-rurn-answer-2.jpg"><img style="max-height: 200px;" src="2018hanyuusing-primary-rurn-answer-2.jpg" alt=""></a></div>
+                    <div class="col-md-3"><a href="2018hanyuusing-primary-rurn-answer-3.jpg"><img style="max-height: 200px;" src="2018hanyuusing-primary-rurn-answer-3.jpg" alt=""></a></div>
+                    <div class="col-md-3"><a href="2018hanyuusing-primary-rurn-answer-4.jpg"><img style="max-height: 200px;" src="2018hanyuusing-primary-rurn-answer-4.jpg" alt=""></a></div>
+                </div>
+                <br><br>
+                <h4>
+                    初赛声明:
+                </h4>
+                <div>
+                    <a href="2018hanyuusing-primary-rurn-shengming.jpg"><img style="max-width: 100%; max-height: 80%;" align="center" src="2018hanyuusing-primary-rurn-shengming.jpg" alt=""></a>
+                </div>
+                <br><br>
+                <h4>
+                    故事还没说完，我们的比赛还在继续。经历了紧张刺激而富有趣味的初赛，
+                    即将迎接我们的是更加有趣且内容更丰富的半决赛，下面是半决赛的比赛规则
+                </h4>
+                <div>
+                    <a href="2018hanyuusing-hafl-rules.jpg"><img style="max-width: 100%; max-height: 80%;" align="center" src="2018hanyuusing-hafl-rules.jpg" alt=""></a>
+                </div>
+                <br><br>
+                <h4>
+                    在数千年的演变中，书法家们创造出了诸如篆、隶、楷、行、草等不同风格的书写形体，
+                    使汉字不但具有记载我们民族思想的实用功能，而且升华为独具魅力的艺术形式。
+                    而我们将用汉语来诠释汉字，用比赛来传承经典！
+                    下面是半决赛小组分配名单，请期待各班在半决赛的精彩表现！
+                </h4>
+
+                <table class="table table-bordered">
+                    <tr>
+                        <td>A组</td>
+                        <td>13班</td>
+                        <td>19班</td>
+                        <td>18班</td>
+                        <td>6班</td>
+                        <td>3班</td>
+                    </tr>
+                    <tr>
+                        <td>B组</td>
+                        <td>15班</td>
+                        <td>17班</td>
+                        <td>7班</td>
+                        <td>1班</td>
+                        <td>2班</td>
+                    </tr>
+                    <tr>
+                        <td>C组</td>
+                        <td>14班</td>
+                        <td>9班</td>
+                        <td>5班</td>
+                        <td>4班</td>
+                        <td>12班</td>
+                    </tr>
+                    <tr>
+                        <td>D组</td>
+                        <td>16班</td>
+                        <td>20班</td>
+                        <td>11班</td>
+                        <td>8班</td>
+                        <td>10班</td>
+                    </tr>
+                </table>
+                <br><br>
+
+                <h4>
+                    [第五届汉字应用大赛半决赛第一场]
+                    在第一场紧张刺激的赛场上，各班选手都有了
+                    极其精彩的表现！各位选手在赛场上展现了
+                    自己独特的智慧，赢得了其他选手及同学的赞赏。
+                    恭喜高一13班的同学获得第一次半决赛的第一名，成功晋级决赛。
+                    也对其他班同学的精彩表现表示赞扬以及感谢！
+                    高一六班由于没有任何人员出席比赛，因此取消比赛资格，
+                    同时也希望往后参加班级都能踊跃地参与比赛，支持电视台的工作，
+                    避免此类情况的再次发生。
+                    下面是各班合影留念:
+                </h4>
+
+                <div  class="container">
+                    <div class="row">
+                        <div class="col-md-6"><a href="2018hanyuusing-half-class13.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-half-class13.jpg" alt=""></a></div>
+                        <div class="col-md-6"><a href="2018hanyuusing-half-class3.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-half-class3.jpg" alt=""></a></div>
+                    </div>
+                    <br><br>
+                    <div class="row">
+                        <div class="col-md-6"><a href="2018hanyuusing-half-class18.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-half-class18.jpg" alt=""></a></div>
+                        <div class="col-md-6"><a href="2018hanyuusing-half-class19.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-half-class19.jpg" alt=""></a></div>
+                    </div>
+                </div>
+                <br><br>
+
+                <h4>
+                    【第五届汉语应用大赛半决赛第二场】
+                    在比赛现场我们仍然能看到选手思想的碰撞，在偏旁挑战中，
+                    一位位选手一笔一划强劲有力的写下一个个汉字；在看图猜成语中，
+                    我们看到了班级之间的团结的力量，各位选手在赛场上挥洒着自己的智慧；
+                    在飞花令上，一句句优美而富有含义的诗句从同学们的嘴里脱口而出，
+                    展现了诗句的无限魅力。恭喜16班获得今天半决赛第二场D组的第一名，
+                    成功晋级决赛！同时感谢各班同学的积极参与和精彩表现！
+                    高一十班由于没有任何人员出席比赛，因此取消比赛资格，
+                    同时也希望往后参加班级都能踊跃地参与比赛，支持电视台的工作，
+                    请其余各班同学按时参加比赛，避免此类事情再次发生。
+                    下面是各班合影:
+                </h4>
+                <div  class="container">
+                    <div class="row">
+                        <div class="col-md-6"><a href="2018hanyuusing-half-class16.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-half-class16.jpg" alt=""></a></div>
+                        <div class="col-md-6"><a href="2018hanyuusing-half-class8.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-half-class8.jpg" alt=""></a></div>
+                    </div>
+                    <br><br>
+                    <div class="row">
+                        <div class="col-md-6"><a href="2018hanyuusing-half-class20.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-half-class20.jpg" alt=""></a></div>
+                        <div class="col-md-6"><a href="2018hanyuusing-half-class11.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-half-class11.jpg" alt=""></a></div>
+                    </div>
+                </div>
+                <br><br>
+                <h4>
+                    【汉语应用大赛半决赛第三场】
+                    比赛已经进行到了第三场，比赛是越来越精彩，竞争也越来越激烈。
+                    在看图猜成语环节，15班，17班，1班的各位选手非常高效率的完成比赛。
+                    飞花令15班17班的同学将自己的汉语底蕴完美的展现出来，一句句诗词被他们赋予了无限的魅力。
+                    恭喜15班同学获得半决赛第三场的第一名，成功晋级决赛！同时也很感谢各班同学的精彩表现！
+                    由于电视台工作人员工作疏漏以及不严谨，对于第三场比赛飞花令环节出现的问题，
+                    我们为此表示十分抱歉。并向接下来比赛的各班选手承诺不会再出现此类问题，
+                    也希望各位同学能及时向我们提出建议，以便比赛更加顺利的进行。
+                    下面是各班合影:
+                </h4>
+                <div  class="container">
+                    <div class="row">
+                        <div class="col-md-6"><a href="2018hanyuusing-half-class15.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-half-class15.jpg" alt=""></a></div>
+                        <div class="col-md-6"><a href="2018hanyuusing-half-class17.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-half-class17.jpg" alt=""></a></div>
+                    </div>
+                    <br><br>
+                    <div class="row">
+                        <div class="col-md-6"><a href="2018hanyuusing-half-class1.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-half-class1.jpg" alt=""></a></div>
+                        <div class="col-md-6"><a href="2018hanyuusing-half-class2.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-half-class2.jpg" alt=""></a></div>
+                    </div>
+                    <br><br>
+                    <div class="row">
+                        <div class="col-md-6"><a href="2018hanyuusing-half-class7.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-half-class7.jpg" alt=""></a></div>
+                    </div>
+                </div>
+                <br><br>
+                <h4>
+                    【第五届汉语应用大赛半决赛第四场】
+                    时间总是在不知不觉中慢慢流逝，半决赛终究还是来到了最后一场，
+                    比赛还是一样的精彩，选手还是一样的出色。我们的工作也进行得越来越顺利，
+                    谢谢各位选手的配合。比赛的每一幕我们都不会忘记，那是你们精彩的一幕，也是我们所期待的一幕。
+                    恭喜今天的14班获得第四场半决赛的第一名，成功晋级决赛！也十分感谢参与各班的精彩表现！
+                    下面是各班合影:
+                </h4>
+                <div  class="container">
+                    <div class="row">
+                        <div class="col-md-6"><a href="2018hanyuusing-half-class14.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-half-class14.jpg" alt=""></a></div>
+                        <div class="col-md-6"><a href="2018hanyuusing-half-class19.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-half-class19.jpg" alt=""></a></div>
+                    </div>
+                    <br><br>
+                    <div class="row">
+                        <div class="col-md-6"><a href="2018hanyuusing-half-class12.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-half-class12.jpg" alt=""></a></div>
+                        <div class="col-md-6"><a href="2018hanyuusing-half-class5.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-half-class5.jpg" alt=""></a></div>
+                    </div>
+                    <br><br>
+                    <div class="row">
+                        <div class="col-md-6"><a href="2018hanyuusing-half-class4.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-half-class4.jpg" alt=""></a></div>
+                    </div>
+                </div>
+                <br><br>
+                <h4>
+                    黄昏时分,穿过长长的旧门楼,踩着窄窄的青石板,独自流连在杏花春雨中的绿杨深巷.
+                    握着书卷,倚着窗儿,一句句诗词总在脑海中回荡，唇齿间吐出的一个个成语在春雨里显得更有意境，
+                    踏上青石板的一刹那，所有的诗句像雨滴一般一句一句烙在上面，而我们，仿佛在不知不觉中接受着它的滋润。
+                    “夜阑卧听风吹雨，铁马冰河入梦来”多少文人墨客借春雨倾诉着他们相思欲寄无处寄的情思。
+                    听风，听雨，听着诗句，随着小巷走到尽头，我们在尽头等着你。
+                    以下是第五届汉语应用大赛决赛的规则。
+                </h4>
+                <div>
+                    <a href="2018hanyuusing-final-rules.jpg"><img style="max-width: 100%; max-height: 80%;" align="center" src="2018hanyuusing-final-rules.jpg" alt=""></a>
+                </div>
+                <br><br>
+
+                <h4>
+                    【第五届汉语应用大赛决赛】
+                    独自撑着伞在淅淅沥沥的夏雨中漫步，眼前的青石小巷早已被细雨笼罩，披上一层轻纱，朦朦胧胧之间放下伞，
+                    任由雨珠一粒一粒在脸上滑落，闭上眼睛细细聆听雨落地的声音，一句“天街小雨润如酥，
+                    草色遥看近却无”脱口而出。
+                    古往今来，有多少文人墨客过着内心凄凉的日子，而诗句，是他们敞怀情感的方式，
+                    许多千古名句也因此产生，而我们，6月10日在阶梯教室三，将引领你从现在走向古代，从诗句了解诗人，
+                    从成语看从前。更多好玩的汉语游戏，尽在汉语应用大赛决赛现场，我们，等你。
+                </h4>
+                <a href="../img/hanyuusing2018final.jpg"><img src="../img/hanyuusing2018final.jpg" style="max-width: 100%; max-height: 60%;" alt="hanyuuising2018poster"></a>
+                <br><br>
+
+                <h4>【第五届汉语应用大赛决赛】
+                    久远记忆中，我一直再用惴惴而窃喜的眼神凝望着你，一望便是三个月。
+                    等待着以后再与你重逢，却又想永远停留在昨天那一刻，即使时过境迁，
+                    即使时隔多年，我永不会忘记，馨江上碎宝石一般的烟火。
+                    在昨天历经两个半小时的精彩比赛中，我们看见了各位选手的努力，拼搏，
+                    看到了各位同学站在赛场上那一份冷静与文采飞扬。最后，
+                    恭喜15班获得本次汉语应用大赛决赛总冠军！也恭喜13班获得亚军，14班获得季军，
+                    16班荣获第四名！感谢各班选手的积极参与！也十分感谢韦红梅老师的精彩点评！
+                    有缘我们明年再见！
+                    下面是各班选手合照:
+                </h4>
+                <div  class="container">
+                    <div class="row">
+                        <div class="col-md-6"><a href="2018hanyuusing-final-class15.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-final-class15.jpg" alt=""></a></div>
+                        <div class="col-md-6"><a href="2018hanyuusing-final-class13.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-final-class13.jpg" alt=""></a></div>
+                    </div>
+                    <br><br>
+                    <div class="row">
+                        <div class="col-md-6"><a href="2018hanyuusing-half-class14.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-final-class14.jpg" alt=""></a></div>
+                        <div class="col-md-6"><a href="2018hanyuusing-final-class16.jpg"><img style="max-height: 500px; max-width: 500px;"  src="2018hanyuusing-final-class16.jpg" alt=""></a></div>
+                    </div>
+                </div>
+                <br><br>
+
+
+
+
+
+
+                <br>
+                <h4>2018汉语应用大赛半决赛记录片:</h4>
+                <video width="100%" height="500px" controls>
+                    <source src="../video/2018yingtong-jilupia.mp4" type="video/mp4">
+                    你就用这个浏览器有出息吗？
+                </video>
+                <br><br>
+                <h4>2018汉语应用大赛记录片:ps:铨铨我等着你的视频</h4>
+                <video width="100%" height="500px" controls>
+                    <source src="../video/2018yingtong-jilupia.mp4" type="video/mp4">
+                    你就用这个浏览器有出息吗？
+                </video>
+
+
+
+                <div class="row" style="margin-top: 50px">
+                    <div class="col-xs-3"><img src="../img/th.png" style=" max-width: 150px; max-height: 150px;" alt=""></div>
+                    <div class="col-xs-9"><h3 class="btn btn-default btn-block" style="font-size: 28px;  margin-top: 50px; margin-left: 10px">南宁三中校园电视台欢迎您的加入</h3></div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
